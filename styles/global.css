@@ -28,6 +28,13 @@ a {
   width: auto;
 }
 
+.background-no-image {
+  background: #f7f7f7;
+  background-size: cover;
+  height: 117vw;
+  width: auto;
+}
+
 /* .header {
   background-color: #d3d3d3;
   background-image: url('../images/jpg/shoes.jpg');
@@ -93,6 +100,33 @@ a {
   font-family: "Rubik Spray Paint", sans-serif;
 }
 
+.icon-ball-1 {
+  position: absolute;
+  width: 6vw;
+  top: 11vw;
+  left: 21vw;
+  filter: opacity(0.5) grayscale(0.7);
+}
+
+.icon-ball-2 {
+  position: absolute;
+  width: 7vw;
+  height: auto;
+  top: 20vw;
+  right: 15vw;
+  filter: brightness(1) invert(0.3);
+  rotate: 30deg;
+}
+
+.icon-ball-3 {
+  width: 10vw;
+  position: absolute;
+  left: 6vw;
+  bottom: 2vw;
+  filter: opacity(0.3) brightness(0);
+  rotate: 52deg;
+}
+
 .icon-plus {
   position: absolute;
   width: 7vw;
@@ -110,6 +144,17 @@ a {
   font-weight: 400;
 }
 
+.greeting-about {
+  margin-bottom: 2vw;
+}
+
+.greeting-about h3 {
+  font-size: 5vw;
+  margin-bottom: 3.5vw;
+  font-weight: 400;
+  text-align: center;
+}
+
 .greeting h1 {
   font-size: 8.5vw;
   font-weight: 900;
@@ -119,6 +164,18 @@ a {
   background-position: 50% 50%;
   -webkit-background-clip: text;
   color: rgba(255, 0, 0, 0.7);
+}
+
+.greeting-about h1 {
+  font-size: 7vw;
+  font-weight: 900;
+  line-height: 9vw;
+  background-image: url('../images/svg/funky-circle2.svg');
+  background-size: 100%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(248, 51, 51, 0.682);
+  text-align: center;
 }
 
 .overlay-opening {
@@ -140,6 +197,24 @@ a {
   position: absolute;
   top: -10vw;
   right: 6vw;
+  filter: opacity(.7);
+}
+
+.icon-circle-about {
+  width: 17vw;
+  position: absolute;
+  top: -1vw;
+  left: 15vw;
+  filter: opacity(.7);
+}
+
+.icon-circle-about-2 {
+  width: 11vw;
+  position: absolute;
+  top: -1vw;
+  right: 1vw;
+  filter: opacity(0.3);
+  rotate: -70deg;
 }
 
 .opening-statement {
@@ -155,6 +230,22 @@ a {
   font-size: 2.8vw;
   font-weight: 600;
   line-height: 4vw;
+}
+
+.opening-statement-about {
+  margin: 6vw;
+  position: absolute;
+  background: #ffffff;
+}
+
+.opening-statement-about p {
+  border: 3.5px solid rgba(181, 178, 178, 0.256);
+  color: #7b7c7e;
+  padding: 5vw 5vw;
+  font-size: 2.8vw;
+  font-weight: 600;
+  line-height: 5vw;
+  text-align: center;
 }
 
 .date-time-location {
@@ -195,9 +286,60 @@ a {
   rotate: -10deg;
 }
 
+.contact-about {
+  text-align: center;
+  position: relative;
+  top: 47vw;
+}
+
+.contact-about p {
+  color: #86888c;
+  font-size: 2.1vw;
+  font-weight: 700;
+  padding-bottom: 1.7vw;
+}
+
+.contact-about p a {
+  color: #6a6a6a;
+  font-weight: 700;
+  border-bottom: 1px solid #6a6a6a;
+}
+
+.creative-commons {
+  text-align: center;
+  color: #241f21;
+  margin-top: 5vw;
+}
+
+.creative-commons h3 {
+  padding-top: 1.5vw;
+  font-size: 4vw;
+  font-weight: 700;
+  filter: blur(0.5px);
+}
+
+.creative-commons hr {
+  border: 1px solid #ec5242;
+  width: 5vw;
+  margin: 1.5vw auto 4vw;
+}
+
+.creative-commons p {
+  font-weight: 500;
+  line-height: 3.5vw;
+  filter: blur(0.4px);
+}
+
+.creative-commons img {
+  width: 80vw;
+  filter: opacity(0.8);
+  margin: 7vw auto;
+  border: 3px solid rgba(192, 184, 184, 0.596);
+}
+
 .main-program {
   position: relative;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .main-program-backgroud {
@@ -211,7 +353,7 @@ a {
 
 .overlay-img-mp {
   position: absolute;
-  background: #585f725d;
+  background: #23344571;
   height: 170vw;
   width: 100%;
   z-index: -1;
@@ -277,7 +419,7 @@ a {
   font-size: 3.5vw;
   font-weight: 500;
   color: #fff;
-  background-color: #f3412d;
+  background-color: #f55745e5;
   padding: 5vw 8vw;
   cursor: pointer;
 }
