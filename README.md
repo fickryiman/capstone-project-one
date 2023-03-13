@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<h1>Capstone Project Module-1</h1>
+<h1>Capstone one</h1>
 
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
@@ -26,11 +26,11 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Portfolio: Responsive Portfolio <a name="about-project"></a>
-This project is about creating a personal portfolio to showcase my activities, backgrounds and experiences.
+# 📖 Capstone one: Responsive website for communities events <a name="about-project"></a>
+This project is about creating a responsive website to showcase community event, activities and agenda.
 
 <!-- > Describe your project in 1 or 2 sentences. -->
-Portfolio: mobile-first approach & responsive on desktop version and bigger size is the first milestone in the process of creating my portfolio website
+Capstone one: mobile-first approach & responsive on desktop version and bigger size is the first capstone project in the process of experiences mimic real-world projects where we must apply what we learned throughout the entire Module, and are built with business specifications that will look really nice in our portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,16 +45,15 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
     <li><a href="https://www.javascript.com/">Javascript</a></li>
   </ul>
 </details>
-<!--
+
 <details>
   <summary>Server Side / Back-End</summary>
   <ul>
-    <li><a href=""> - </a></li>
-    <li><a href=""> - </a></li>
-    <li><a href=""> - </a></li>
+    <li><a href="https://www.json.org/json-en.html">JSON</a></li>
+    <!-- <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li> -->
   </ul>
 </details>
--->
 
 <!-- Features -->
 ### Tools i have used for this project <a name="tools"></a>
@@ -81,7 +80,8 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
       <ul>
         <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
         <li><a href="https://desktop.github.com/">Github Desktop</a></li>
-        <li><a href="https://www.figma.com/">Figma</a></li>
+        <li><a href="https://www.behance.net/">Behance</a></li>
+        <!-- <li><a href="https://www.figma.com/">Figma</a></li> -->
       </ul>
   </details>
 
@@ -93,6 +93,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 - Button Interactions (i.e. hover, etc.)
 - Attractive Images & Design
 - Modal/dialog
+- Dynamic page (data is retrieved from JSON file)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,6 +117,7 @@ In order to run this project you need:
 - git version 2.38.x
 - node.js version > 12.x
 - IDE
+- browser (chrome, firefox, edge, safari)
 
 ### Setup
 
@@ -123,7 +125,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:fickryiman/fickryiman.github.io.git
+  git git@github.com:fickryiman/capstone-project-one.git
 ```
 
 
@@ -161,7 +163,7 @@ You can deploy this project using:
 GitHub Pages
 Example:
 ```sh
-git@github.com:fickryiman/fickryiman.github.io.git
+git@github.com:fickryiman/capstone-project-one.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,7 +198,7 @@ git@github.com:fickryiman/fickryiman.github.io.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [git@github.com:fickryiman/fickryiman.github.io.git](../../issues/).
+Feel free to check the [git@github.com:fickryiman/capstone-project-one.git](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +215,7 @@ If you like this project please follow me on GitHub: [@fickryiman](https://githu
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <!-- > Give credit to everyone who inspired your codebase. -->
-I would like to thank Allah, my Family, Microverse for all of the experiences.
+I would like to thank Allah, my Families and Microverse for all of the experiences.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
