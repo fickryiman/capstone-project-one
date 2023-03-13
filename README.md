@@ -1,41 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+<h1>Capstone Project Module-1</h1>
 
 <!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -59,230 +26,226 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+# 📖 Portfolio: Responsive Portfolio <a name="about-project"></a>
+This project is about creating a personal portfolio to showcase my activities, backgrounds and experiences.
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+<!-- > Describe your project in 1 or 2 sentences. -->
+Portfolio: mobile-first approach & responsive on desktop version and bigger size is the first milestone in the process of creating my portfolio website
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 <details>
-  <summary>Client</summary>
+  <summary>Client Side / Front-End</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.w3.org/html/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
   </ul>
 </details>
-
+<!--
 <details>
-  <summary>Server</summary>
+  <summary>Server Side / Back-End</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li>
   </ul>
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+-->
 
 <!-- Features -->
+### Tools i have used for this project <a name="tools"></a>
+  <details>
+    <summary>Code Convention, Code Analysis</summary>
+      <ul>
+        <li><a href="https://eslint.org/">ESLint</a></li>
+        <li><a href="https://webhint.io/">Webhint</a></li>
+        <li><a href="https://stylelint.io/">Stylelint</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en">Lighthouse</a></li>
+        <li><a href="https://www.npmjs.com/package/npm-check">node_modules checker</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>Version Control, CI/CD, Hosting Service</summary>
+      <ul>
+        <li><a href="https://pages.github.com/">Github Pages</a></li>
+        <li><a href="https://github.com/features/actions">Github Actions</a></li>
+        <li><a href="https://git-scm.com/">Git</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>IDE, Desktop Apps, Other Tools</summary>
+      <ul>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://desktop.github.com/">Github Desktop</a></li>
+        <li><a href="https://www.figma.com/">Figma</a></li>
+      </ul>
+  </details>
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+<!-- > Describe between 1-3 key features of the application. -->
+- Mobile First Approach
+- Responsive Website
+- Button Interactions (i.e. hover, etc.)
+- Attractive Images & Design
+- Modal/dialog
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+## 🚀 Live Demo <a name=""></a>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+<!-- > Add a link to your deployed project. -->
+- [Click here... Live demo link](https://fickryiman.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
+<!-- > Describe how a new developer could make use of your project. -->
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- git version 2.38.x
+- node.js version > 12.x
+- IDE
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:fickryiman/fickryiman.github.io.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
   cd my-project
-  gem install
+  node install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
+run live server
 
 <!--
-Example command:
-
 ```sh
   rails server
 ```
---->
+-->
 
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
+Run Github Actions Test
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx stylelint "**/*.{css,scss}"
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
+GitHub Pages
 Example:
-
 ```sh
-
+git@github.com:fickryiman/fickryiman.github.io.git
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@fickryiman](https://github.com/fickryiman)
+- Facebook: [@fickry.bil.iman](https://www.facebook.com/fickry.bil.iman)
+- LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+<!-- > Describe 1 - 3 features you will add to the project. -->
+- Dynamic content
+- Add functionality of Javascript
+- Add list of my recent works / projects
+- Store data to database
+- Adding my blog related with my work experiences
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [git@github.com:fickryiman/fickryiman.github.io.git](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+<!-- > Write a message to encourage readers to support your project -->
 
-If you like this project...
+If you like this project please follow me on GitHub: [@fickryiman](https://github.com/fickryiman) or connect on LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+<!-- > Give credit to everyone who inspired your codebase. -->
+I would like to thank Allah, my Family, Microverse for all of the experiences.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
 
-- **[Question_1]**
+<!-- - **[Question_1]** -->
 
-  - [Answer_1]
+  <!-- - [Answer_1] -->
 
-- **[Question_2]**
+<!-- - **[Question_2]** -->
 
-  - [Answer_2]
+  <!-- - [Answer_2] -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+<!-- This project is [MIT](./LICENSE) licensed. -->
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
