@@ -19,10 +19,6 @@ a {
 }
 
 /* mobile-version first approach */
-.header {
-  
-}
-
 .background-image {
   background-image: url('../images/jpg/shoes.jpg');
   background-size: cover;
