@@ -42,6 +42,7 @@ a {
 .overlay-img {
   position: absolute;
   background: #ffffffdb;
+  top: 0;
   height: 120vw;
   width: 100%;
 }
@@ -51,6 +52,7 @@ a {
   justify-content: space-between;
   width: 100%;
   position: absolute;
+  top: 0;
 }
 
 .hamburger {
@@ -190,6 +192,7 @@ a {
   position: absolute;
   top: 80vw;
   right: 10vw;
+  rotate: -10deg;
 }
 
 .main-program {
