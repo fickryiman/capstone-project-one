@@ -41,7 +41,6 @@ a {
 
 .overlay-img {
   position: absolute;
-  top: 0vw;
   background: #ffffffdb;
   height: 120vw;
   width: 100%;
@@ -52,7 +51,6 @@ a {
   justify-content: space-between;
   width: 100%;
   position: absolute;
-  top: 0vw;
 }
 
 .hamburger {
@@ -105,7 +103,7 @@ a {
 
 .greeting h3 {
   font-size: 5vw;
-  margin-top: 3.5vw;;
+  margin-top: 3.5vw;
   margin-bottom: 2vw;
   font-weight: 400;
 }
@@ -118,7 +116,6 @@ a {
   background-size: 100%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
   color: rgba(255, 0, 0, 0.7);
 }
 
@@ -205,14 +202,12 @@ a {
   background-size: cover;
   width: 100%;
   position: absolute;
-  top: 0vw;
   height: 170vw;
   z-index: -2;
 }
 
 .overlay-img-mp {
   position: absolute;
-  top: 0vw;
   background: #585f725d;
   height: 170vw;
   width: 100%;
@@ -242,7 +237,7 @@ a {
 .agenda {
   display: flex;
   gap: 5vw;
-  background-color: #ffffff22;
+  background-color: #fff2;
   margin: 2vw 3vw;
   padding: 4vw 3vw;
 }
@@ -307,7 +302,7 @@ a {
 .speaker {
   display: flex;
   flex-direction: row;
-  padding: 0vw 3.5vw 7vw 5vw;
+  padding: 0 3.5vw 7vw 5vw;
 }
 
 .speaker-image-bw {
@@ -321,7 +316,6 @@ a {
   position: absolute;
   margin-top: 2.8vw;
   margin-left: 2.8vw;
-
 }
 
 .speaker-desc {
@@ -342,7 +336,6 @@ a {
   font-size: 2.2vw;
   font-weight: 600;
   margin-bottom: 2vw;
-
 }
 
 .speaker-hr {
@@ -356,5 +349,3 @@ a {
   font-weight: 500;
   line-height: 3vw;
 }
-
-
