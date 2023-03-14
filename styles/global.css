@@ -622,7 +622,7 @@ a {
   padding: 3vw 0.5vw;
 }
 
-.more-speaker img {
+.more-speaker > img {
   width: 4vw;
   height: min-content;
   margin-top: 3vw;
