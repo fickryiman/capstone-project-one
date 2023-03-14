@@ -628,3 +628,34 @@ a {
   margin-top: 3vw;
   filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
 }
+
+@media screen and (min-device-width: 768px),
+  screen and (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .very-top-header {
+    display: flex;
+    height: 3vw;
+    justify-content: flex-end;
+    gap: 2vw;
+    background: #3e3e3e;
+    padding-right: 15vw;
+  }
+
+  .very-top-header img {
+    padding: 0.7vw;
+    filter: brightness(0) invert(1);
+  }
+
+  .very-top-header p a {
+    color: #fff;
+    font-size: 1.3vw;
+  }
+
+  .overlay-img {
+    top: 3vw;
+  }
+
+}
