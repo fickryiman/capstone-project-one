@@ -308,33 +308,140 @@ a {
 .creative-commons {
   text-align: center;
   color: #241f21;
-  margin-top: 5vw;
+  margin: 5vw auto;
+  border-bottom: 2px solid #b9b6b656;
 }
 
 .creative-commons h3 {
-  padding-top: 1.5vw;
-  font-size: 4vw;
+  padding: 0vw 25vw 1.1vw;
+  font-size: 3vw;
   font-weight: 700;
-  filter: blur(0.5px);
+  filter: blur(0.3px);
+  letter-spacing: 1px;
 }
 
 .creative-commons hr {
   border: 1px solid #ec5242;
   width: 5vw;
-  margin: 1.5vw auto 4vw;
+  margin: 2vw auto 3vw;
 }
 
 .creative-commons p {
+  font-size: 2.1vw;
   font-weight: 500;
   line-height: 3.5vw;
-  filter: blur(0.4px);
+  padding: 0 20vw;
 }
 
 .creative-commons img {
+  width: 90vw;
+  filter: opacity(0.7);
+  margin: 5.5vw auto 5vw;
+  border: 3px solid rgba(192, 184, 184, 0.447);
+}
+
+.past-summits {
+  text-align: center;
+  color: #272a31;
+  margin-bottom: 10vw;
+}
+
+.past-summits h3 {
+  font-size: 3.5vw;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.past-summits hr {
+  width: 5vw;
+  margin: 2vw auto;
+  border: 1px solid #ec5242;
+}
+
+.past-summits p {
+  font-size: 2.1vw;
+  font-weight: 500;
+  line-height: 3.5vw;
+  padding: 2vw 15vw 5vw;
+}
+
+.card-past-summits {
+  margin: 0 auto;
+}
+
+.first-img {
+  background: linear-gradient(0deg, rgba(239, 51, 51, 0.551), rgba(239, 51, 51, 0.551)), url('../images/jpg/erika-giraud-7KhbREQPFD4-unsplash.jpg');
+}
+
+.second-img {
+  background: linear-gradient(0deg, rgba(239, 51, 51, 0.551), rgba(239, 51, 51, 0.551)), url('../images/jpg/joel-mott-O9Ogddfvl-U-unsplash.jpg');
+}
+
+.image-past-summits {
+  /* background: linear-gradient(0deg, rgba(239, 51, 51, 0.551), rgba(239, 51, 51, 0.551)), url('../images/jpg/erika-giraud-7KhbREQPFD4-unsplash.jpg'); */
+  background-size: cover;
   width: 80vw;
-  filter: opacity(0.8);
-  margin: 7vw auto;
-  border: 3px solid rgba(192, 184, 184, 0.596);
+  height: 40vw;
+  margin: 2vw auto 5vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-past-summits h2 {
+  padding-top: 10vw;
+  font-size: 7vw;
+  font-weight: 900;
+  filter: opacity(0.9);
+}
+
+.image-past-summits p {
+  font-size: 2.5vw;
+  font-weight: 600;
+  letter-spacing: 1px;
+  filter: opacity(0.9);
+}
+
+.partners {
+  background-color: #414246;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.partners h2 {
+  font-size: 4.5vw;
+  padding: 5vw 0 1.5vw;
+}
+
+.partners hr {
+  border: 1px solid #f22710d2;
+  margin: 0 auto 5vw;
+  width: 8vw;
+}
+
+.partners .logo img {
+  width: 25vw;
+  height: auto;
+  padding: 2vw 2vw;
+}
+
+.license {
+  display: flex;
+}
+
+.license img {
+  width: 50vw;
+  height: auto;
+  padding: 0.1vw 1vw 5vw 5vw;
+}
+
+.license p {
+  align-self: center;
+  text-align: center;
+  font-size: 2.5vw;
+  padding-right: 5vw;
 }
 
 .main-program {
