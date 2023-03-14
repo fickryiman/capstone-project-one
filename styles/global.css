@@ -407,7 +407,7 @@ a {
   background-color: #414246;
   color: #fff;
   text-align: center;
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
 }
 
 .partners h2 {
@@ -431,7 +431,7 @@ a {
   width: 30vw;
   height: auto;
   padding: 2vw 2vw;
-  filter: grayscale(100);
+  filter: brightness(0) invert(0.8);
 }
 
 .partners .logo div {
@@ -440,6 +440,7 @@ a {
 
 .license {
   display: flex;
+  margin-bottom: 5vw;
 }
 
 .license p {
