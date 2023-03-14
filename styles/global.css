@@ -18,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+.very-top-header,
+.desktop-menu {
+  display: none;
+}
+
 /* mobile-version first approach */
 .background-image {
   background-image: url('../images/jpg/shoes.jpg');
@@ -193,11 +198,11 @@ a {
 }
 
 .icon-circle {
-  width: 21.5vw;
+  width: 21vw;
   position: absolute;
-  top: -10vw;
+  top: -6vw;
   right: 6vw;
-  filter: opacity(0.7);
+  filter: opacity(0.4);
 }
 
 .icon-circle-about {
@@ -629,6 +634,7 @@ a {
   filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
 }
 
+/* DESKTOP VERSION */
 @media screen and (min-device-width: 768px),
   screen and (min-width: 768px) {
   .navbar {
@@ -641,7 +647,7 @@ a {
     justify-content: flex-end;
     gap: 2vw;
     background: #3e3e3e;
-    padding-right: 15vw;
+    padding-right: 10.5vw;
   }
 
   .very-top-header img {
@@ -654,8 +660,137 @@ a {
     font-size: 1.3vw;
   }
 
+  .desktop-menu {
+    display: flex;
+    height: 5.5vw;
+    justify-content: space-between;
+    margin: 0.5vw 10vw;
+  }
+
+  .desktop-menu-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-menu .desktop-menu-flex ul {
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: 600;
+    gap: 1vw;
+    color: #55585de1;
+  }
+
+  .desktop-menu .desktop-menu-flex ul li {
+    padding: 1.5vw 1.5vw;
+  }
+
+  .desktop-menu > .desktop-menu-flex > ul > li:nth-child(6) {
+    border: 0.4vw solid #ec5242;
+    padding: 1.1vw 1.4vw 0.2vw;
+    margin-top: 0.1vw;
+    margin-left: 3vw;
+  }
+
+  .background-image {
+    background-image: url('../images/jpg/shoes-desktop.jpg');
+    background-size: cover;
+    background-position: bottom;
+    filter: grayscale(100%) blur(1px);
+    -webkit-filter: grayscale(100%);
+    height: 27.3vw;
+  }
+
   .overlay-img {
-    top: 3vw;
+    top: 9.5vw;
+    position: absolute;
+    background: #f9f9f9e8;
+    height: 80vw;
+    width: 100%;
+  }
+
+  .titles {
+    position: relative;
+    top: -14vw;
+  }
+
+  .date-time-location {
+    top: 39.5vw;
+    margin-left: 5vw;
+
+  }
+
+  .date-time-location .date-time {
+    font-size: 3.5vw;
+  }
+
+  .date-time-location .location {
+    font-size: 2.1vw;
+  }
+
+  .greeting {
+    margin: -1vw 10vw;
+  }
+
+  .greeting h3 {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+  }
+
+  .greeting h1 {
+    font-size: 7vw;
+    line-height: 7vw;
+    padding-right: 5.5vw;
+  }
+
+  .opening-statement {
+    width: 50vw;
+    left: 5vw;
+    margin-top: 3vw;
+  }
+
+  .opening-statement p {
+    font-size: 1.4vw;
+    padding: 1.5vw;
+    line-height: 2vw;
+  }
+
+  .icon-0 {
+    font-size: 4vw;
+    top: -15vw;
+    left: 4vw;
+  }
+
+  .icon-plus {
+    width: 3vw;
+    top: 57vw;
+    right: 5vw;
+  }
+
+  .icon-plus-2 {
+    display: none;
+  }
+
+  .icon-circle {
+    width: 11vw;
+    top: -1.2vw;
+    right: 35.5vw;
+    filter: opacity(0.3);
+  }
+
+  .icon-c {
+    font-size: 3.5vw;
+    top: 68vw;
+    left: 70vw;
+  }
+
+  .no-dollar {
+    top: -1.5vw;
+    right: 24vw;
+    width: 4vw;
+  }
+
+  .main-program {
+    top: 25vw;
   }
 
 }
