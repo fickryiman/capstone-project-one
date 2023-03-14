@@ -313,7 +313,7 @@ a {
 }
 
 .creative-commons h3 {
-  padding: 0vw 25vw 1.1vw;
+  padding: 0 25vw 1.1vw;
   font-size: 3vw;
   font-weight: 700;
   filter: blur(0.3px);
@@ -407,12 +407,12 @@ a {
   background-color: #414246;
   color: #fff;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5vw;
 }
 
 .partners h2 {
-  font-size: 4.5vw;
-  padding: 5vw 0 1.5vw;
+  font-size: 5vw;
+  padding: 7vw 0 1.5vw;
 }
 
 .partners hr {
@@ -421,20 +421,25 @@ a {
   width: 8vw;
 }
 
+.license img {
+  width: 50vw;
+  height: auto;
+  padding: 0.1vw 1vw 2vw 5vw;
+}
+
 .partners .logo img {
-  width: 25vw;
+  width: 30vw;
   height: auto;
   padding: 2vw 2vw;
+  filter: grayscale(100);
+}
+
+.partners .logo div {
+  height: 8vw;
 }
 
 .license {
   display: flex;
-}
-
-.license img {
-  width: 50vw;
-  height: auto;
-  padding: 0.1vw 1vw 5vw 5vw;
 }
 
 .license p {
