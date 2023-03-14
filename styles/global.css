@@ -538,7 +538,7 @@ a {
 }
 
 .speakers-section {
-  margin: 10vw 0 30vw;
+  margin: 10vw 0 8vw;
 }
 
 .speakers-section-title {
@@ -606,4 +606,25 @@ a {
   font-size: 2vw;
   font-weight: 500;
   line-height: 3vw;
+}
+
+.more-speaker {
+  display: flex;
+  border: 3px solid #73777c8f;
+  margin: 0 auto 10vw;
+  width: 90vw;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.more-speaker p {
+  font-size: 3vw;
+  padding: 3vw 0.5vw;
+}
+
+.more-speaker img {
+  width: 4vw;
+  height: min-content;
+  margin-top: 3vw;
+  filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
 }
