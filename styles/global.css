@@ -205,7 +205,7 @@ a {
   position: absolute;
   top: -1vw;
   left: 15vw;
-  filter: opacity(.7);
+  filter: opacity(0.7);
 }
 
 .icon-circle-about-2 {
