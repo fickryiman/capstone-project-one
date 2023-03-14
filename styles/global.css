@@ -19,7 +19,11 @@ a {
 }
 
 .very-top-header,
-.desktop-menu {
+.desktop-menu,
+.icon-0-desktop,
+.no-yen,
+.icon-plus-2,
+.black-white-triangle {
   display: none;
 }
 
@@ -653,6 +657,7 @@ a {
   .very-top-header img {
     padding: 0.7vw;
     filter: brightness(0) invert(1);
+    cursor: pointer;
   }
 
   .very-top-header p a {
@@ -665,6 +670,10 @@ a {
     height: 5.5vw;
     justify-content: space-between;
     margin: 0.5vw 10vw;
+  }
+
+  .desktop-menu img {
+    cursor: pointer;
   }
 
   .desktop-menu-flex {
@@ -682,6 +691,7 @@ a {
 
   .desktop-menu .desktop-menu-flex ul li {
     padding: 1.5vw 1.5vw;
+    cursor: pointer;
   }
 
   .desktop-menu > .desktop-menu-flex > ul > li:nth-child(6) {
@@ -758,16 +768,26 @@ a {
     font-size: 4vw;
     top: -15vw;
     left: 4vw;
+    filter: opacity(0.3);
+  }
+
+  .icon-0-desktop {
+    display: unset;
+    font-size: 3.5vw;
+    position: absolute;
+    top: -8vw;
+    right: 14vw;
+    color: rgba(0, 0, 0, 0.12);
+    font-family: Mitr, sans-serif;
+    font-weight: 600;
+    filter: opacity(0.3);
   }
 
   .icon-plus {
     width: 3vw;
     top: 57vw;
     right: 5vw;
-  }
-
-  .icon-plus-2 {
-    display: none;
+    filter: blur(2px) opacity(0.3);
   }
 
   .icon-circle {
@@ -779,14 +799,36 @@ a {
 
   .icon-c {
     font-size: 3.5vw;
-    top: 68vw;
-    left: 70vw;
+    top: 67vw;
+    left: 68vw;
+    filter: opacity(0.3);
   }
 
   .no-dollar {
     top: -1.5vw;
     right: 24vw;
     width: 4vw;
+  }
+
+  .no-yen {
+    display: unset;
+    width: 5vw;
+    filter: grayscale(100);
+    filter: blur(0.3px) brightness(0.5) invert(0.9) opacity(0.6);
+    position: absolute;
+    top: 50vw;
+    left: 2vw;
+    rotate: -10deg;
+  }
+
+  .black-white-triangle {
+    display: unset;
+    width: 3vw;
+    filter: grayscale(100) opacity(0.1);
+    position: absolute;
+    top: 55vw;
+    right: 43vw;
+    rotate: 45deg;
   }
 
   .main-program {
