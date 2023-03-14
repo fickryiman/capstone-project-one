@@ -197,7 +197,7 @@ a {
   position: absolute;
   top: -10vw;
   right: 6vw;
-  filter: opacity(.7);
+  filter: opacity(0.7);
 }
 
 .icon-circle-about {
@@ -235,7 +235,7 @@ a {
 .opening-statement-about {
   margin: 6vw;
   position: absolute;
-  background: #ffffff;
+  background: #fff;
 }
 
 .opening-statement-about p {
