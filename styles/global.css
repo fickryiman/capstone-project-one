@@ -98,9 +98,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.navbar-container .hamburger-lines {
   margin-top: 2vw;
   margin-left: -2vw;
 }
@@ -129,7 +126,7 @@ a {
 
 .navbar .menu-items {
   padding-top: 22vw;
-  background: #ffffff;
+  background: #fff;
   height: 65vh;
   max-width: 300px;
   transform: translate(-150%);
@@ -138,7 +135,7 @@ a {
   margin-left: -40px;
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
-  box-shadow: 5px 0px 10px 0px #4d4a4a;
+  box-shadow: 5px 0 10px 0 #4d4a4a;
 }
 
 .navbar .menu-items li {
@@ -1262,7 +1259,6 @@ a {
   .license-home-page-img {
     width: 12vw;
     height: auto;
-    /* rotate: 9deg; */
   }
 
   .license-home-page p {
@@ -1278,10 +1274,8 @@ a {
 
   .license-img {
     width: 12vw;
-    margin-left: 5vw;
     padding: 2vw;
     margin-left: -2vw;
-    /* rotate: 9deg; */
   }
 
   .license p {
