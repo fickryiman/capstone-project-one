@@ -26,7 +26,8 @@ a {
 .black-white-triangle,
 .agenda-check,
 .partners-home-page,
-.license-home-page {
+.license-home-page,
+.greeting-hr-about {
   display: none;
 }
 
@@ -47,17 +48,6 @@ a {
   width: auto;
 }
 
-/* .header {
-  background-color: #d3d3d3;
-  background-image: url('../images/jpg/shoes.jpg');
-  filter: grayscale(100%);
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../images/jpg/shoes.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: none;
-  min-height: 30vh;
-} */
-
 .overlay-img {
   position: absolute;
   background: #ffffffdb;
@@ -66,33 +56,116 @@ a {
   width: 100%;
 }
 
+.container {
+  /* max-width: 1200px; */
+  width: 90%;
+  margin: auto;
+}
+
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
   position: absolute;
   top: 0;
+  width: 100%;
+  color: #595555;
+  z-index: 12;
+  opacity: 0.95;
 }
 
-.nav-menu {
-  background: #5a1de982;
+.navbar-container {
+  display: block;
+  position: relative;
+  height: 64px;
+}
+
+.navbar-container input[type="checkbox"] {
   position: absolute;
+  display: block;
+  height: 32px;
+  width: 30px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
 }
 
-.hamburger {
-  display: block;
-  margin: 5%;
+.navbar-container .hamburger-lines {
+  height: 23px;
+  width: 35px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2vw;
+  margin-left: -2vw;
 }
 
-.bar {
+.navbar-container .hamburger-lines .line {
   display: block;
-  width: 8vw;
-  height: 1.3vw;
-  margin: 1.1vw;
-  border-radius: 0.3vw;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  background-color: #101010c3;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #333;
+}
+
+.navbar-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 22vw;
+  background: #fff;
+  height: 65vh;
+  max-width: 300px;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 5px 0 10px 0 #4d4a4a;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 2vw;
+  padding-top: 3.5vw;
+  padding-bottom: 2.5vw;
+  font-size: 5.7vw;
+  font-weight: 700;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #ec5242;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(35deg);
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-35deg);
 }
 
 .titles {
@@ -144,9 +217,9 @@ a {
 .icon-ball-3 {
   width: 10vw;
   position: absolute;
-  left: 6vw;
-  bottom: 2vw;
-  filter: opacity(0.3) brightness(0);
+  left: 12vw;
+  bottom: 6vw;
+  filter: opacity(0.2) brightness(0);
   rotate: 52deg;
 }
 
@@ -199,6 +272,14 @@ a {
   -webkit-background-clip: text;
   color: rgba(248, 51, 51, 0.682);
   text-align: center;
+  padding: 0 15vw;
+}
+
+.greeting-hr-about {
+  display: block;
+  border: 2px solid #ec5242;
+  margin: 2.5vw auto 0 auto;
+  width: 5vw;
 }
 
 .overlay-opening {
@@ -446,9 +527,9 @@ a {
 }
 
 .license img {
-  width: 50vw;
+  width: 25vw;
   height: auto;
-  padding: 0.1vw 1vw 2vw 5vw;
+  padding: 1vw 1vw 2vw 10vw;
 }
 
 .partners .logo img {
@@ -469,9 +550,10 @@ a {
 
 .license p {
   align-self: center;
-  text-align: center;
-  font-size: 2.5vw;
-  padding-right: 5vw;
+  text-align: left;
+  font-size: 1.5vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 .main-program {
@@ -700,8 +782,8 @@ a {
   } */
 
   .menu-logo {
-    rotate: 9deg;
-    width: 12.5vw;
+    /* rotate: 9deg; */
+    width: 8vw;
     height: auto;
   }
 
@@ -789,7 +871,7 @@ a {
   .greeting h1 {
     font-size: 7vw;
     line-height: 7vw;
-    padding-right: 5.5vw;
+    padding-right: 25.5vw;
   }
 
   .greeting-about h3 {
@@ -797,10 +879,10 @@ a {
   }
 
   .greeting-about h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     line-height: 5vw;
     padding-left: 25vw;
-    padding-right: 20vw;
+    padding-right: 25vw;
   }
 
   .icon-ball-1 {
@@ -906,9 +988,9 @@ a {
 
   .icon-0 {
     font-size: 4vw;
-    top: -15vw;
+    top: -14vw;
     left: 4vw;
-    filter: opacity(0.3);
+    filter: opacity(0.4);
   }
 
   .icon-0-desktop {
@@ -916,11 +998,11 @@ a {
     font-size: 3.5vw;
     position: absolute;
     top: -8vw;
-    right: 14vw;
+    right: 3vw;
     color: rgba(0, 0, 0, 0.12);
     font-family: Mitr, sans-serif;
     font-weight: 600;
-    filter: opacity(0.3);
+    filter: opacity(0.4);
   }
 
   .icon-plus {
@@ -953,7 +1035,7 @@ a {
 
   .icon-ball-2 {
     width: 4vw;
-    top: 32vw;
+    top: 35vw;
     right: 18vw;
   }
 
@@ -993,8 +1075,8 @@ a {
     width: 3vw;
     filter: grayscale(100) opacity(0.1);
     position: absolute;
-    top: 55vw;
-    right: 43vw;
+    top: 35vw;
+    right: 18vw;
     rotate: 45deg;
   }
 
@@ -1175,9 +1257,8 @@ a {
   }
 
   .license-home-page-img {
-    width: 20vw;
+    width: 12vw;
     height: auto;
-    rotate: 9deg;
   }
 
   .license-home-page p {
@@ -1191,11 +1272,10 @@ a {
     color: #fff;
   }
 
-  .license .license-img {
-    width: 20vw;
-    margin-left: 10vw;
+  .license-img {
+    width: 12vw;
     padding: 2vw;
-    rotate: 9deg;
+    margin-left: -2vw;
   }
 
   .license p {
