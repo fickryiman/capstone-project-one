@@ -26,7 +26,8 @@ a {
 .black-white-triangle,
 .agenda-check,
 .partners-home-page,
-.license-home-page {
+.license-home-page,
+.greeting-hr-about {
   display: none;
 }
 
@@ -219,9 +220,9 @@ a {
 .icon-ball-3 {
   width: 10vw;
   position: absolute;
-  left: 6vw;
-  bottom: 2vw;
-  filter: opacity(0.3) brightness(0);
+  left: 12vw;
+  bottom: 6vw;
+  filter: opacity(0.2) brightness(0);
   rotate: 52deg;
 }
 
@@ -274,6 +275,14 @@ a {
   -webkit-background-clip: text;
   color: rgba(248, 51, 51, 0.682);
   text-align: center;
+  padding: 0 15vw;
+}
+
+.greeting-hr-about {
+  display: block;
+  border: 2px solid #ec5242;
+  margin: 2.5vw auto 0 auto;
+  width: 5vw;
 }
 
 .overlay-opening {
@@ -521,9 +530,9 @@ a {
 }
 
 .license img {
-  width: 50vw;
+  width: 25vw;
   height: auto;
-  padding: 0.1vw 1vw 2vw 5vw;
+  padding: 1vw 1vw 2vw 10vw;
 }
 
 .partners .logo img {
@@ -544,9 +553,10 @@ a {
 
 .license p {
   align-self: center;
-  text-align: center;
-  font-size: 2.5vw;
-  padding-right: 5vw;
+  text-align: left;
+  font-size: 1.5vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 .main-program {
@@ -775,8 +785,8 @@ a {
   } */
 
   .menu-logo {
-    rotate: 9deg;
-    width: 12.5vw;
+    /* rotate: 9deg; */
+    width: 8vw;
     height: auto;
   }
 
@@ -864,7 +874,7 @@ a {
   .greeting h1 {
     font-size: 7vw;
     line-height: 7vw;
-    padding-right: 5.5vw;
+    padding-right: 25.5vw;
   }
 
   .greeting-about h3 {
@@ -872,10 +882,10 @@ a {
   }
 
   .greeting-about h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     line-height: 5vw;
     padding-left: 25vw;
-    padding-right: 20vw;
+    padding-right: 25vw;
   }
 
   .icon-ball-1 {
@@ -981,9 +991,9 @@ a {
 
   .icon-0 {
     font-size: 4vw;
-    top: -15vw;
+    top: -14vw;
     left: 4vw;
-    filter: opacity(0.3);
+    filter: opacity(0.4);
   }
 
   .icon-0-desktop {
@@ -991,11 +1001,11 @@ a {
     font-size: 3.5vw;
     position: absolute;
     top: -8vw;
-    right: 14vw;
+    right: 3vw;
     color: rgba(0, 0, 0, 0.12);
     font-family: Mitr, sans-serif;
     font-weight: 600;
-    filter: opacity(0.3);
+    filter: opacity(0.4);
   }
 
   .icon-plus {
@@ -1028,7 +1038,7 @@ a {
 
   .icon-ball-2 {
     width: 4vw;
-    top: 32vw;
+    top: 35vw;
     right: 18vw;
   }
 
@@ -1068,8 +1078,8 @@ a {
     width: 3vw;
     filter: grayscale(100) opacity(0.1);
     position: absolute;
-    top: 55vw;
-    right: 43vw;
+    top: 35vw;
+    right: 18vw;
     rotate: 45deg;
   }
 
@@ -1250,9 +1260,9 @@ a {
   }
 
   .license-home-page-img {
-    width: 20vw;
+    width: 12vw;
     height: auto;
-    rotate: 9deg;
+    /* rotate: 9deg; */
   }
 
   .license-home-page p {
@@ -1266,11 +1276,12 @@ a {
     color: #fff;
   }
 
-  .license .license-img {
-    width: 20vw;
-    margin-left: 10vw;
+  .license-img {
+    width: 12vw;
+    margin-left: 5vw;
     padding: 2vw;
-    rotate: 9deg;
+    margin-left: -2vw;
+    /* rotate: 9deg; */
   }
 
   .license p {
