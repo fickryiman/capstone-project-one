@@ -678,6 +678,7 @@ a {
 
   .desktop-menu img {
     cursor: pointer;
+    rotate: 9deg;
   }
 
   .desktop-menu-flex {
@@ -981,17 +982,17 @@ a {
 
   .partners-home-page h2 {
     font-size: 3vw;
-    padding: 5vw 0 1.5vw;
+    padding: 3vw 0 1.5vw;
   }
 
   .partners-home-page hr {
     border: 1px solid #f22710d2;
-    margin: 0 auto 2vw;
+    margin: 0 auto 1vw;
     width: 5vw;
   }
 
   .partners-home-page .logo img {
-    width: 15vw;
+    width: 12vw;
     height: auto;
     padding: 2vw 2vw;
     filter: brightness(0) invert(0.8);
@@ -1004,8 +1005,8 @@ a {
   .license-home-page {
     display: flex;
     justify-content: center;
-    padding: 5vw 10vw;
-    gap: 10vw;
+    padding: 5vw 12.5vw;
+    gap: 5vw;
     background: #f2f2f2;
   }
 
@@ -1018,8 +1019,8 @@ a {
   
   .license-home-page p {
     align-self: center;
-    text-align: center;
-    font-size: 1.7vw;
+    text-align: left;
+    font-size: 1.3vw;
   }
 
 }
