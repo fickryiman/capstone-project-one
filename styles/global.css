@@ -24,7 +24,9 @@ a {
 .no-yen,
 .icon-plus-2,
 .black-white-triangle,
-.agenda-check {
+.agenda-check,
+.partners-home-page,
+.license-home-page {
   display: none;
 }
 
@@ -900,7 +902,11 @@ a {
   }
 
   .speakers-section {
-    margin-top: 30vw;
+    background: #f2f2f2;
+    margin-top: 25vw;
+    margin-bottom: 0;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
   }
 
   .speakers-section-title {
@@ -961,4 +967,59 @@ a {
     font-size: 1.2vw;
     line-height: 1.5vw;
   }
+
+  .more-speaker {
+    display: none;
+  }
+
+  .partners-home-page {
+    display: block;
+    background-color: #414246;
+    color: #b7b4b4;
+    text-align: center;
+  }
+
+  .partners-home-page h2 {
+    font-size: 3vw;
+    padding: 5vw 0 1.5vw;
+  }
+
+  .partners-home-page hr {
+    border: 1px solid #f22710d2;
+    margin: 0 auto 2vw;
+    width: 5vw;
+  }
+
+  .partners-home-page .logo img {
+    width: 15vw;
+    height: auto;
+    padding: 2vw 2vw;
+    filter: brightness(0) invert(0.8);
+  }
+  
+  .partners-home-page .logo div {
+    height: 5vw;
+  }
+
+  .license-home-page {
+    display: flex;
+    justify-content: center;
+    padding: 5vw 10vw;
+    gap: 10vw;
+    background: #f2f2f2;
+  }
+
+  .license-home-page img {
+    width: 25vw;
+    height: auto;
+    rotate: 9deg;
+    /* padding: 0.1vw 1vw 2vw 5vw; */
+  }
+  
+  .license-home-page p {
+    align-self: center;
+    text-align: center;
+    font-size: 1.7vw;
+  }
+
 }
