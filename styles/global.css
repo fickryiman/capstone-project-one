@@ -23,7 +23,8 @@ a {
 .icon-0-desktop,
 .no-yen,
 .icon-plus-2,
-.black-white-triangle {
+.black-white-triangle,
+.agenda-check {
   display: none;
 }
 
@@ -461,6 +462,7 @@ a {
 
 .main-program {
   position: relative;
+  height: 170vw;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -832,6 +834,131 @@ a {
 
   .main-program {
     top: 25vw;
+    height: 50vw;
   }
 
+  .main-program-backgroud {
+    height: 50vw;
+  }
+
+  .overlay-img-mp {
+    height: 50vw;
+  }
+
+  .mp-title {
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+  }
+
+  .agendas {
+    flex-direction: row;
+    margin: 5vw 10vw;
+    height: fit-content;
+  }
+
+  .agenda {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.2vw;
+    padding: 1.5vw 0.5vw;
+    gap: 2vw;
+  }
+
+  .agenda-icon {
+    width: 3.5vw;
+  }
+  .agenda-title {
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+  .agenda-aligner {
+    display: none;
+  }
+
+  .agenda-desc {
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 2vw;
+    text-align: center;
+  }
+
+  .agenda-button {
+    display: none;
+  }
+
+  .agenda-check {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .agenda-check a {
+    color: #fff;
+    font-size: 1.3vw;
+    border-bottom: 1px solid #fff;
+  }
+
+  .speakers-section {
+    margin-top: 30vw;
+  }
+
+  .speakers-section-title {
+    font-size: 2.5vw;
+  }
+
+  .speakers-section-hr {
+    margin-top: 2vw;
+    margin-bottom: 7vw;
+  }
+
+  .speakers-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10vw;
+  }
+
+  .speaker {
+    padding: 0 1.5vw 5vw 0;
+    width: 40vw;
+  }
+
+  .speaker-image-bw {
+    width: 5.5vw;
+    filter: opacity(0.5);
+  }
+
+  .speaker-image {
+    width: 10vw;
+    margin-top: 1.2vw;
+    margin-left: 1.2vw;
+  }
+
+  .speaker-desc {
+    margin-top: 0;
+    margin-left: 8vw;
+  }
+
+  .speaker-name {
+    font-size: 2.2vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .speaker-occupation {
+    font-size: 1.2vw;
+    margin-bottom: 1.2vw;
+  }
+
+  .speaker-hr {
+    border: 1px solid rgb(187, 181, 181);
+    width: 2vw;
+    margin-bottom: 1.2vw;
+  }
+
+  .speaker-details {
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+  }
 }
