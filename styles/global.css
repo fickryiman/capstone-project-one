@@ -876,7 +876,7 @@ a {
   .image-past-summits {
     background-size: contain;
     margin: 0;
-    height: fit-content;
+    height: auto;
   }
 
   .image-past-summits h2 {
@@ -1028,6 +1028,7 @@ a {
   .agenda-icon {
     width: 3.5vw;
   }
+
   .agenda-title {
     font-size: 1.5vw;
     text-align: center;
@@ -1054,7 +1055,7 @@ a {
     cursor: pointer;
   }
 
-  .agenda-check a {
+  .agenda-check .see-all-program {
     color: #fff;
     font-size: 1.3vw;
     border-bottom: 1px solid #fff;
@@ -1155,7 +1156,7 @@ a {
     padding: 2vw 2vw;
     filter: brightness(0) invert(0.8);
   }
-  
+
   .partners-home-page .logo div {
     height: 5vw;
   }
@@ -1163,18 +1164,17 @@ a {
   .license-home-page {
     display: flex;
     justify-content: center;
-    padding: 5vw 12.5vw;
+    padding: 1vw 12.5vw;
     gap: 5vw;
     background: #f2f2f2;
   }
 
-  .license-home-page img {
-    width: 25vw;
+  .license-home-page-img {
+    width: 20vw;
     height: auto;
     rotate: 9deg;
-    /* padding: 0.1vw 1vw 2vw 5vw; */
   }
-  
+
   .license-home-page p {
     align-self: center;
     text-align: left;
@@ -1182,20 +1182,21 @@ a {
   }
 
   .license {
-    background: #3e3e3eeb;
+    background: #0000008b;
     color: #fff;
   }
 
-  .license img {
-    width: 25vw;
+  .license .license-img {
+    width: 20vw;
     margin-left: 10vw;
     padding: 2vw;
     rotate: 9deg;
   }
 
   .license p {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: left;
   }
-
 }
