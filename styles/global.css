@@ -1014,7 +1014,7 @@ a {
   .agendas {
     flex-direction: row;
     margin: 5vw 10vw;
-    height: fit-content;
+    height: auto;
   }
 
   .agenda {
