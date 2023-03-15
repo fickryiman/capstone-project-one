@@ -96,6 +96,12 @@ a {
   top: 23vw;
 }
 
+.titles-about {
+  color: #ef412e;
+  position: absolute;
+  top: 23vw;
+}
+
 .greeting {
   color: #f8240c;
   margin-right: 5vw;
@@ -217,7 +223,7 @@ a {
   position: absolute;
   top: -1vw;
   left: 15vw;
-  filter: opacity(0.7);
+  filter: opacity(0.3);
 }
 
 .icon-circle-about-2 {
@@ -308,7 +314,7 @@ a {
   color: #86888c;
   font-size: 2.1vw;
   font-weight: 700;
-  padding-bottom: 1.7vw;
+  padding: 0.5vw 25vw;
 }
 
 .contact-about p a {
@@ -651,22 +657,29 @@ a {
 
   .very-top-header {
     display: flex;
-    height: 3vw;
     justify-content: flex-end;
+    align-content: center;
     gap: 2vw;
     background: #3e3e3e;
     padding-right: 10.5vw;
   }
 
   .very-top-header img {
+    height: 3vw;
     padding: 0.7vw;
     filter: brightness(0) invert(1);
     cursor: pointer;
   }
 
+  .very-top-header p {
+    display: flex;
+    align-items: center;
+  }
+
   .very-top-header p a {
     color: #fff;
     font-size: 1.3vw;
+    align-self: center;
   }
 
   .desktop-menu {
@@ -715,6 +728,10 @@ a {
     height: 27.3vw;
   }
 
+  .background-no-image {
+    height: 55vw;
+  }
+
   .overlay-img {
     top: 9.5vw;
     position: absolute;
@@ -726,6 +743,11 @@ a {
   .titles {
     position: relative;
     top: -14vw;
+  }
+
+  .titles-about {
+    position: relative;
+    top: -45vw;
   }
 
   .date-time-location {
@@ -756,6 +778,24 @@ a {
     padding-right: 5.5vw;
   }
 
+  .greeting-about h3 {
+    display: none;
+  }
+
+  .greeting-about h1 {
+    font-size: 4vw;
+    line-height: 5vw;
+    padding-left: 25vw;
+    padding-right: 20vw;
+  }
+
+  .icon-ball-1 {
+    width: 3vw;
+    filter: opacity(0.2) grayscale(100);
+    top: 23vw;
+    left: 25vw;
+  }
+
   .opening-statement {
     width: 50vw;
     left: 5vw;
@@ -766,6 +806,62 @@ a {
     font-size: 1.4vw;
     padding: 1.5vw;
     line-height: 2vw;
+  }
+
+  .overlay-opening {
+    margin-right: 10vw;
+    padding-left: 15vw;
+  }
+
+  .opening-statement-about p {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    padding: 2.2vw 1.8vw;
+    text-align: center;
+  }
+
+  .creative-commons {
+    margin-top: -11.5vw;
+  }
+
+  .creative-commons h3 {
+    padding: 0;
+    font-size: 2vw;
+  }
+
+  .creative-commons hr {
+    width: 3vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .creative-commons p {
+    font-size: 1.5vw;
+  }
+
+  .creative-commons img {
+    width: 35vw;
+  }
+
+  .past-summits h3 {
+    font-size: 2vw;
+  }
+
+  .past-summits hr {
+    margin-bottom: 1vw;
+  }
+
+  .past-summits p {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+  }
+
+  .contact-about {
+    top: 22vw;
+  }
+
+  .contact-about p {
+    font-size: 1.3vw;
   }
 
   .icon-0 {
@@ -799,6 +895,33 @@ a {
     top: -1.2vw;
     right: 35.5vw;
     filter: opacity(0.3);
+  }
+
+  .icon-circle-about {
+    width: 8vw;
+    filter: opacity(0.3);
+    top: 7.5vw;
+    left: 16.5vw;
+  }
+
+  .icon-circle-about-2 {
+    width: 6vw;
+    filter: opacity(0.25);
+    top: 9vw;
+    right: -3vw;
+  }
+
+  .icon-ball-2 {
+    width: 4vw;
+    top: 32vw;
+    right: 18vw;
+  }
+
+  .icon-ball-3 {
+    width: 2.5vw;
+    filter: opacity(0.15) brightness(0);
+    top: 0.5vw;
+    left: 10vw;
   }
 
   .icon-c {
