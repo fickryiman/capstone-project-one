@@ -74,6 +74,11 @@ a {
   top: 0;
 }
 
+.nav-menu {
+  background: #5a1de982;
+  position: absolute;
+}
+
 .hamburger {
   display: block;
   margin: 5%;
