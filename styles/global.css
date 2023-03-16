@@ -530,7 +530,7 @@ a {
   width: 8vw;
 }
 
-.license img {
+.license .license-img {
   width: 22vw;
   height: auto;
   padding: 1vw 1vw 2vw 10vw;
@@ -1311,7 +1311,7 @@ a {
     color: #fff;
   }
 
-  .license img {
+  .license .license-img {
     width: 20vw;
     padding: 3vw 1vw 3vw 10vw;
   }
