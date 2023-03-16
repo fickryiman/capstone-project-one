@@ -92,7 +92,7 @@ function loadSpeakerInformation() {
     if (window.screen.width < 768) {
       if (counting < 2) {
         loadSpeakerCard(speaker);
-        counting++;
+        counting += 1;
       }
     } else {
       loadSpeakerCard(speaker);
