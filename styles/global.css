@@ -407,7 +407,7 @@ a {
   padding: 0.5vw 25vw;
 }
 
-.contact-about p a {
+.contact-about-a {
   color: #6a6a6a;
   font-weight: 700;
   border-bottom: 1px solid #6a6a6a;
@@ -807,7 +807,7 @@ a {
     width: 7.8vw;
     height: auto;
   }
-  
+
   .menu-logo:hover {
     width: 8vw;
     height: auto;
@@ -834,7 +834,7 @@ a {
   .desktop-menu .desktop-menu-flex ul li a {
     color: #55585de1;
   }
-  
+
   .desktop-menu .desktop-menu-flex ul li a:hover {
     color: #ec5242;
   }
