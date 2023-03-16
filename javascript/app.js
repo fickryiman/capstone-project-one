@@ -53,44 +53,6 @@ const speakersList = [
 const speakersContainer = document.querySelector('.speakers-flex');
 const moreSpeaker = document.querySelector('.more-speaker');
 
-moreSpeaker.addEventListener('click', () => {
-  while(speakersContainer.hasChildNodes()) {
-    speakersContainer.removeChild(speakersContainer.firstChild);
-  }
-
-  speakersList.forEach((speaker) => {
-    loadSpeakerCard(speaker);
-  });
-});
-
-window.onresize = function() {
-  loadSpeakerInformation();
-}
-
-window.onload = function() {
-  loadSpeakerInformation();
-}
-
-
-function loadSpeakerInformation() {
-  while (speakersContainer.hasChildNodes()) {
-    speakersContainer.removeChild(speakersContainer.firstChild);
-  }
-
-  let counting = 0;
-  speakersList.forEach((speaker) => {
-    if (window.screen.width < 768) {
-      if (counting < 2) {
-        loadSpeakerCard(speaker);
-        counting++;
-      }
-    } else {
-      loadSpeakerCard(speaker);
-    }
-  })
-}
-
-
 function loadSpeakerCard(speaker) {
   const card = `
   <div class="speakers">
@@ -109,3 +71,38 @@ function loadSpeakerCard(speaker) {
   speakersContainer.innerHTML += card;
 }
 
+window.onresize = function() {
+  loadSpeakerInformation();
+}
+
+window.onload = function() {
+  loadSpeakerInformation();
+}
+
+moreSpeaker.addEventListener('click', () => {
+  while (speakersContainer.hasChildNodes()) {
+    speakersContainer.removeChild(speakersContainer.firstChild);
+  }
+
+  speakersList.forEach((speaker) => {
+    loadSpeakerCard(speaker);
+  });
+});
+
+function loadSpeakerInformation() {
+  while (speakersContainer.hasChildNodes()) {
+    speakersContainer.removeChild(speakersContainer.firstChild);
+  }
+
+  let counting = 0;
+  speakersList.forEach((speaker) => {
+    if (window.screen.width < 768) {
+      if (counting < 2) {
+        loadSpeakerCard(speaker);
+        counting++;
+      }
+    } else {
+      loadSpeakerCard(speaker);
+    }
+  })
+}
