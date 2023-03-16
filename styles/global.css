@@ -148,8 +148,12 @@ a {
 
 .menu-items a {
   text-decoration: none;
-  color: #ec5242;
+  color: #585453;
   transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+  color: #ec5242;
 }
 
 .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -607,6 +611,11 @@ a {
   padding: 4vw 3vw;
 }
 
+.agenda:hover {
+  background-color: #3333332e;
+  transition: all 0.3s ease-in-out;
+}
+
 .agenda-icon {
   width: 10vw;
   height: auto;
@@ -642,6 +651,10 @@ a {
   background-color: #f55745e5;
   padding: 5vw 8vw;
   cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: #55585d;
 }
 
 .speakers-section {
@@ -724,6 +737,11 @@ a {
   cursor: pointer;
 }
 
+.more-speaker:hover {
+  background-color: #79797b4a;
+  border: 3px solid #ffffff8f;
+}
+
 .more-speaker p {
   font-size: 3vw;
   padding: 3vw 0.5vw;
@@ -770,6 +788,10 @@ a {
     align-self: center;
   }
 
+  .very-top-header p a:hover {
+    color: #ec5242;
+  }
+
   .desktop-menu {
     display: flex;
     height: 5.5vw;
@@ -782,9 +804,14 @@ a {
   } */
 
   .menu-logo {
-    /* rotate: 9deg; */
+    width: 7.8vw;
+    height: auto;
+  }
+  
+  .menu-logo:hover {
     width: 8vw;
     height: auto;
+    filter: opacity(0.7);
   }
 
   .desktop-menu-flex {
@@ -806,6 +833,10 @@ a {
 
   .desktop-menu .desktop-menu-flex ul li a {
     color: #55585de1;
+  }
+  
+  .desktop-menu .desktop-menu-flex ul li a:hover {
+    color: #ec5242;
   }
 
   .desktop-menu > .desktop-menu-flex > ul > li:nth-child(6) {
@@ -1146,6 +1177,14 @@ a {
     color: #fff;
     font-size: 1.3vw;
     border-bottom: 1px solid #fff;
+  }
+
+  .agenda-check .see-all-program:hover {
+    color: #f2ada6;
+    font-size: 1.4vw;
+    border-bottom: 1px solid #f2ada6;
+    background-color: #55585d33;
+    transition: all 0.2s ease-in-out;
   }
 
   .speakers-section {
