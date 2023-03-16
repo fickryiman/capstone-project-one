@@ -67,17 +67,10 @@ function loadSpeakerCard(speaker) {
       </div>
     </div>
   </div>
-  `
+  `;
+
   speakersContainer.innerHTML += card;
-}
-
-window.onresize = function() {
-  loadSpeakerInformation();
-}
-
-window.onload = function() {
-  loadSpeakerInformation();
-}
+};
 
 moreSpeaker.addEventListener('click', () => {
   while (speakersContainer.hasChildNodes()) {
@@ -105,4 +98,12 @@ function loadSpeakerInformation() {
       loadSpeakerCard(speaker);
     }
   })
-}
+};
+
+window.onresize = function () {
+  loadSpeakerInformation();
+};
+
+window.onload = function () {
+  loadSpeakerInformation();
+};
