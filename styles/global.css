@@ -1290,7 +1290,7 @@ a {
   .license-home-page {
     display: flex;
     justify-content: center;
-    padding: 1vw 12.5vw;
+    padding: 3vw 12.5vw;
     gap: 5vw;
     background: #f2f2f2;
   }
