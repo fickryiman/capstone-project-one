@@ -70,7 +70,7 @@ function loadSpeakerCard(speaker) {
   `;
 
   speakersContainer.innerHTML += card;
-};
+}
 
 moreSpeaker.addEventListener('click', () => {
   while (speakersContainer.hasChildNodes()) {
@@ -97,8 +97,8 @@ function loadSpeakerInformation() {
     } else {
       loadSpeakerCard(speaker);
     }
-  })
-};
+  });
+}
 
 window.onresize = function () {
   loadSpeakerInformation();
