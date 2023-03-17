@@ -533,7 +533,7 @@ a {
 .license .license-img {
   width: 22vw;
   height: auto;
-  padding: 1vw 1vw 2vw 10vw;
+  padding: 5vw 1vw 2vw 10vw;
 }
 
 .partners .logo img {
@@ -1290,35 +1290,38 @@ a {
   .license-home-page {
     display: flex;
     justify-content: center;
-    padding: 1vw 12.5vw;
+    padding: 5vw 12.5vw;
     gap: 5vw;
     background: #f2f2f2;
   }
 
   .license-home-page-img {
-    width: 12vw;
+    width: 10vw;
     height: auto;
+    filter: brightness(0) invert(0);
   }
 
   .license-home-page p {
     align-self: center;
     text-align: left;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
+    padding-left: 10vw;
   }
 
   .license {
-    background: #0000008b;
+    background: #525252;
     color: #fff;
   }
 
   .license .license-img {
     width: 20vw;
     padding: 3vw 1vw 3vw 10vw;
+    filter: brightness(0) invert(1);
   }
 
   .license p {
-    font-size: 1.2vw;
-    padding-left: 5vw;
+    font-size: 1.1vw;
+    padding-left: 15vw;
     padding-right: 5vw;
     text-align: left;
   }
