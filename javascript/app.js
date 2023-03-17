@@ -74,14 +74,14 @@ function loadSpeakerCard(speaker) {
 }
 
 function changeSpeakersButton() {
-  if (moreSpeakerP.textContent === "MORE") {
-    moreSpeakerP.textContent = "LESS";
-    moreSpeakerArrow.src = "images/icon/arrow-up.png";
-    moreSpeakerArrow.className = "more-speaker-arrow-up";
+  if (moreSpeakerP.textContent === 'MORE') {
+    moreSpeakerP.textContent = 'LESS';
+    moreSpeakerArrow.src = 'images/icon/arrow-up.png';
+    moreSpeakerArrow.className = 'more-speaker-arrow-up';
   } else {
-    moreSpeakerP.textContent = "MORE";
-    moreSpeakerArrow.src = "images/icon/arrow-down.png"
-    moreSpeakerArrow.className = "more-speaker-arrow-down";
+    moreSpeakerP.textContent = 'MORE';
+    moreSpeakerArrow.src = 'images/icon/arrow-down.png';
+    moreSpeakerArrow.className = 'more-speaker-arrow-down';
   }
 }
 
@@ -90,7 +90,7 @@ moreSpeaker.addEventListener('click', () => {
     speakersContainer.removeChild(speakersContainer.firstChild);
   }
 
-  if (moreSpeakerP.textContent === "MORE") {
+  if (moreSpeakerP.textContent === 'MORE') {
     speakersList.forEach((speaker) => {
       loadSpeakerCard(speaker);
     });
@@ -101,12 +101,10 @@ moreSpeaker.addEventListener('click', () => {
         loadSpeakerCard(speaker);
         counting += 1;
       }
-    })
+    });
   }
   changeSpeakersButton();
 });
-
-
 
 function loadSpeakerInformation() {
   while (speakersContainer.hasChildNodes()) {
