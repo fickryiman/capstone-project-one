@@ -101,7 +101,7 @@ Capstone one: mobile-first approach & responsive on desktop version and bigger s
 ## 🚀 Live Demo <a name=""></a>
 
 <!-- > Add a link to your deployed project. -->
-- [Click here... Live demo link](https://fickryiman.github.io)
+- [Click here... Live demo link](https://fickryiman.github.io/capstone-project-one)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
