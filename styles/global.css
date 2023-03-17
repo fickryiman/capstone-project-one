@@ -738,8 +738,8 @@ a {
 }
 
 .more-speaker:hover {
-  background-color: #79797b4a;
-  border: 3px solid #ffffff8f;
+  background-color: #7cc7cb4a;
+  border: 3px solid #73777c8f;
 }
 
 .more-speaker p {
@@ -751,6 +751,14 @@ a {
   width: 4vw;
   height: min-content;
   margin-top: 3vw;
+  filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
+}
+
+.more-speaker .more-speaker-arrow-up {
+  width: 3vw;
+  height: min-content;
+  margin-top: 3.1vw;
+  margin-left: 1vw;
   filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
 }
 
