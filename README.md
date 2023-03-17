@@ -215,7 +215,7 @@ If you like this project please follow me on GitHub: [@fickryiman](https://githu
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <!-- > Give credit to everyone who inspired your codebase. -->
-I would like to thank Allah, my Families and Microverse for all of the experiences.
+Credit to [Cindy Shin][https://www.behance.net/adagio07] [the author of the original design][https://www.behance.net/gallery/29845175/CC-Global-Summit-2015]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
