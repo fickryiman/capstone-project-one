@@ -82,6 +82,8 @@ moreSpeaker.addEventListener('click', () => {
   });
 });
 
+const moreSpeakerP = document.querySelector('.more-speaker-p');
+
 function loadSpeakerInformation() {
   while (speakersContainer.hasChildNodes()) {
     speakersContainer.removeChild(speakersContainer.firstChild);
