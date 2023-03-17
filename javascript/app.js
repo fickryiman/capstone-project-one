@@ -52,24 +52,37 @@ const speakersList = [
 
 const speakersContainer = document.querySelector('.speakers-flex');
 const moreSpeaker = document.querySelector('.more-speaker');
+const moreSpeakerP = document.querySelector('.more-speaker-p');
+const moreSpeakerArrow = document.querySelector('.more-speaker-arrow-down');
 
 function loadSpeakerCard(speaker) {
   const card = `
-  <div class="speakers">
-    <div class="speaker">
-      <img src="images/png/black-white3.png" class="speaker-image-bw" alt="speaker-bw" srcset="">
-      <img src="${speaker.image}" class="speaker-image" alt="speaker-image" srcset="">
-      <div class="speaker-desc">
-        <p class="speaker-name">${speaker.name}</p>
-        <p class="speaker-occupation">${speaker.occupation}</p>
-        <hr class="speaker-hr">
-        <p class="speaker-details">${speaker.details}</p>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="images/png/black-white3.png" class="speaker-image-bw" alt="speaker-bw" srcset="">
+        <img src="${speaker.image}" class="speaker-image" alt="speaker-image" srcset="">
+        <div class="speaker-desc">
+          <p class="speaker-name">${speaker.name}</p>
+          <p class="speaker-occupation">${speaker.occupation}</p>
+          <hr class="speaker-hr">
+          <p class="speaker-details">${speaker.details}</p>
+        </div>
       </div>
     </div>
-  </div>
   `;
-
   speakersContainer.innerHTML += card;
+}
+
+function changeSpeakersButton() {
+  if (moreSpeakerP.textContent === 'MORE') {
+    moreSpeakerP.textContent = 'LESS';
+    moreSpeakerArrow.src = 'images/icon/arrow-up.png';
+    moreSpeakerArrow.className = 'more-speaker-arrow-up';
+  } else {
+    moreSpeakerP.textContent = 'MORE';
+    moreSpeakerArrow.src = 'images/icon/arrow-down.png';
+    moreSpeakerArrow.className = 'more-speaker-arrow-down';
+  }
 }
 
 moreSpeaker.addEventListener('click', () => {
@@ -77,9 +90,20 @@ moreSpeaker.addEventListener('click', () => {
     speakersContainer.removeChild(speakersContainer.firstChild);
   }
 
-  speakersList.forEach((speaker) => {
-    loadSpeakerCard(speaker);
-  });
+  if (moreSpeakerP.textContent === 'MORE') {
+    speakersList.forEach((speaker) => {
+      loadSpeakerCard(speaker);
+    });
+  } else {
+    let counting = 0;
+    speakersList.forEach((speaker) => {
+      if (counting < 2) {
+        loadSpeakerCard(speaker);
+        counting += 1;
+      }
+    });
+  }
+  changeSpeakersButton();
 });
 
 function loadSpeakerInformation() {

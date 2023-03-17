@@ -127,8 +127,8 @@ a {
 .navbar .menu-items {
   padding-top: 22vw;
   background: #fff;
-  height: 65vh;
-  max-width: 300px;
+  height: 150vw;
+  width: 70vw;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
@@ -533,7 +533,7 @@ a {
 .license .license-img {
   width: 22vw;
   height: auto;
-  padding: 1vw 1vw 2vw 10vw;
+  padding: 5vw 1vw 2vw 10vw;
 }
 
 .partners .logo img {
@@ -738,8 +738,8 @@ a {
 }
 
 .more-speaker:hover {
-  background-color: #79797b4a;
-  border: 3px solid #ffffff8f;
+  background-color: #7cc7cb4a;
+  border: 3px solid #73777c8f;
 }
 
 .more-speaker p {
@@ -751,6 +751,14 @@ a {
   width: 4vw;
   height: min-content;
   margin-top: 3vw;
+  filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
+}
+
+.more-speaker .more-speaker-arrow-up {
+  width: 3vw;
+  height: min-content;
+  margin-top: 3.1vw;
+  margin-left: 1vw;
   filter: invert(23%) sepia(100%) saturate(1857%) hue-rotate(351deg) brightness(106%) contrast(80%);
 }
 
@@ -1290,35 +1298,38 @@ a {
   .license-home-page {
     display: flex;
     justify-content: center;
-    padding: 3vw 12.5vw;
+    padding: 5vw 12.5vw;
     gap: 5vw;
     background: #f2f2f2;
   }
 
   .license-home-page-img {
-    width: 12vw;
+    width: 10vw;
     height: auto;
+    filter: brightness(0) invert(0);
   }
 
   .license-home-page p {
     align-self: center;
     text-align: left;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
+    padding-left: 10vw;
   }
 
   .license {
-    background: #0000008b;
+    background: #525252;
     color: #fff;
   }
 
   .license .license-img {
     width: 20vw;
     padding: 3vw 1vw 3vw 10vw;
+    filter: brightness(0) invert(1);
   }
 
   .license p {
-    font-size: 1.2vw;
-    padding-left: 5vw;
+    font-size: 1.1vw;
+    padding-left: 15vw;
     padding-right: 5vw;
     text-align: left;
   }
